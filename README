@@ -1,0 +1,28 @@
+  This is an app for lists of recurring events.  I found that there are many
+things I used a traditional ToDo list format for, where I ended up getting
+frustrated by having to re-enter the same activities or items month after
+month, or week after week.  What do I mean?  Things like groceries:  although
+there are always some deviations, in general I get the same few items every
+time, or every other time, I go to the grocery store.  So why should I have to
+re-enter those things every time I run out of them?  Instead, this app allows
+the user to enter an item or event once, onto a custom list, and then toggle
+whether it shows in the "done" or "needs to be done" portion of the list.
+
+  How does it work?  On setup, enter in all of the grocerise you usually get.  As
+you run out, toggle each item to "needs to be done".  When you finally go to the
+store, as you pick up each item toggle it to "done".  Over the course of the
+next week(s), toggle each item back to "needs to be done" as you run out.  
+  
+  This model works for things like chores, too.  I wish it weren't the case, but
+things like the kitchen and bathroom never stay clean, the bills need to be
+paid each month, and my mom likes me to call her every once in a while.  So
+those things can be set up in a "chores" list, where chores are toggled to
+"need to be done" as it becomes obvious that, say, your tub is developing its
+own ecosystem, and then toggled to "done" once you massacre the alien
+lifeforms growing on your dirty dishes.  And then toggle them back to "needs
+to be done" as the process repeats itself.  
+  
+  05_01_2012:  This app is in the very earliest stages.  Eventually this will be
+ported to use Core Data (whether or not Core Data is strictly necessary, this
+is a teaching tool for me, as well as a passion project and potential appstore
+submission, so I will add Core Data just to get more familiarity with it).  
