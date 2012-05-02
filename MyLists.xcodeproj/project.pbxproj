@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		803157951551D2D200DF935A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803157941551D2D200DF935A /* UIKit.framework */; };
+		803157971551D2D200DF935A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803157961551D2D200DF935A /* Foundation.framework */; };
+		803157991551D2D200DF935A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803157981551D2D200DF935A /* CoreGraphics.framework */; };
+		8031579F1551D2D200DF935A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8031579D1551D2D200DF935A /* InfoPlist.strings */; };
+		803157A11551D2D200DF935A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 803157A01551D2D200DF935A /* main.m */; };
+		803157A51551D2D200DF935A /* ARJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 803157A41551D2D200DF935A /* ARJAppDelegate.m */; };
+		803157AE1551D34A00DF935A /* ARJAllListsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803157AC1551D34A00DF935A /* ARJAllListsTableViewController.m */; };
+		803157AF1551D34A00DF935A /* ARJAllListsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803157AD1551D34A00DF935A /* ARJAllListsTableViewController.xib */; };
+		803157B31551D4E600DF935A /* ARJOneListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 803157B11551D4E600DF935A /* ARJOneListTableViewController.m */; };
+		803157B41551D4E600DF935A /* ARJOneListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 803157B21551D4E600DF935A /* ARJOneListTableViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		803157901551D2D200DF935A /* MyLists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLists.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		803157941551D2D200DF935A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		803157961551D2D200DF935A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		803157981551D2D200DF935A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8031579C1551D2D200DF935A /* MyLists-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyLists-Info.plist"; sourceTree = "<group>"; };
+		8031579E1551D2D200DF935A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		803157A01551D2D200DF935A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		803157A21551D2D200DF935A /* MyLists-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyLists-Prefix.pch"; sourceTree = "<group>"; };
+		803157A31551D2D200DF935A /* ARJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARJAppDelegate.h; sourceTree = "<group>"; };
+		803157A41551D2D200DF935A /* ARJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARJAppDelegate.m; sourceTree = "<group>"; };
+		803157AB1551D34A00DF935A /* ARJAllListsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARJAllListsTableViewController.h; sourceTree = "<group>"; };
+		803157AC1551D34A00DF935A /* ARJAllListsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARJAllListsTableViewController.m; sourceTree = "<group>"; };
+		803157AD1551D34A00DF935A /* ARJAllListsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARJAllListsTableViewController.xib; sourceTree = "<group>"; };
+		803157B01551D4E600DF935A /* ARJOneListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARJOneListTableViewController.h; sourceTree = "<group>"; };
+		803157B11551D4E600DF935A /* ARJOneListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARJOneListTableViewController.m; sourceTree = "<group>"; };
+		803157B21551D4E600DF935A /* ARJOneListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARJOneListTableViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8031578D1551D2D200DF935A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803157951551D2D200DF935A /* UIKit.framework in Frameworks */,
+				803157971551D2D200DF935A /* Foundation.framework in Frameworks */,
+				803157991551D2D200DF935A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		803157851551D2D200DF935A = {
+			isa = PBXGroup;
+			children = (
+				8031579A1551D2D200DF935A /* MyLists */,
+				803157931551D2D200DF935A /* Frameworks */,
+				803157911551D2D200DF935A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		803157911551D2D200DF935A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				803157901551D2D200DF935A /* MyLists.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		803157931551D2D200DF935A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				803157941551D2D200DF935A /* UIKit.framework */,
+				803157961551D2D200DF935A /* Foundation.framework */,
+				803157981551D2D200DF935A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8031579A1551D2D200DF935A /* MyLists */ = {
+			isa = PBXGroup;
+			children = (
+				803157A31551D2D200DF935A /* ARJAppDelegate.h */,
+				803157A41551D2D200DF935A /* ARJAppDelegate.m */,
+				803157AB1551D34A00DF935A /* ARJAllListsTableViewController.h */,
+				803157AC1551D34A00DF935A /* ARJAllListsTableViewController.m */,
+				803157AD1551D34A00DF935A /* ARJAllListsTableViewController.xib */,
+				803157B01551D4E600DF935A /* ARJOneListTableViewController.h */,
+				803157B11551D4E600DF935A /* ARJOneListTableViewController.m */,
+				803157B21551D4E600DF935A /* ARJOneListTableViewController.xib */,
+				8031579B1551D2D200DF935A /* Supporting Files */,
+			);
+			path = MyLists;
+			sourceTree = "<group>";
+		};
+		8031579B1551D2D200DF935A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8031579C1551D2D200DF935A /* MyLists-Info.plist */,
+				8031579D1551D2D200DF935A /* InfoPlist.strings */,
+				803157A01551D2D200DF935A /* main.m */,
+				803157A21551D2D200DF935A /* MyLists-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8031578F1551D2D200DF935A /* MyLists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803157A81551D2D200DF935A /* Build configuration list for PBXNativeTarget "MyLists" */;
+			buildPhases = (
+				8031578C1551D2D200DF935A /* Sources */,
+				8031578D1551D2D200DF935A /* Frameworks */,
+				8031578E1551D2D200DF935A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLists;
+			productName = MyLists;
+			productReference = 803157901551D2D200DF935A /* MyLists.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		803157871551D2D200DF935A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ARJ;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 8031578A1551D2D200DF935A /* Build configuration list for PBXProject "MyLists" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 803157851551D2D200DF935A;
+			productRefGroup = 803157911551D2D200DF935A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8031578F1551D2D200DF935A /* MyLists */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8031578E1551D2D200DF935A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8031579F1551D2D200DF935A /* InfoPlist.strings in Resources */,
+				803157AF1551D34A00DF935A /* ARJAllListsTableViewController.xib in Resources */,
+				803157B41551D4E600DF935A /* ARJOneListTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8031578C1551D2D200DF935A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				803157A11551D2D200DF935A /* main.m in Sources */,
+				803157A51551D2D200DF935A /* ARJAppDelegate.m in Sources */,
+				803157AE1551D34A00DF935A /* ARJAllListsTableViewController.m in Sources */,
+				803157B31551D4E600DF935A /* ARJOneListTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8031579D1551D2D200DF935A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8031579E1551D2D200DF935A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		803157A61551D2D200DF935A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		803157A71551D2D200DF935A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		803157A91551D2D200DF935A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLists/MyLists-Prefix.pch";
+				INFOPLIST_FILE = "MyLists/MyLists-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		803157AA1551D2D200DF935A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyLists/MyLists-Prefix.pch";
+				INFOPLIST_FILE = "MyLists/MyLists-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8031578A1551D2D200DF935A /* Build configuration list for PBXProject "MyLists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803157A61551D2D200DF935A /* Debug */,
+				803157A71551D2D200DF935A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		803157A81551D2D200DF935A /* Build configuration list for PBXNativeTarget "MyLists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				803157A91551D2D200DF935A /* Debug */,
+				803157AA1551D2D200DF935A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 803157871551D2D200DF935A /* Project object */;
+}
